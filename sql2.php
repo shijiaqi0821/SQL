@@ -1,6 +1,6 @@
 <?php
 //连接mysql数据库-----mysqli
-$mysqli = new mysqli("localhost", "root", "root", "1906");
+$mysqli = new mysqli("localhost", "root", "123456abc", "1906");
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
